@@ -16,11 +16,7 @@ public class one{
         int age = in.nextInt();
         System.out.print("Input your ID: ");
         int id = in.nextInt();
-        System.out.println("Your name: "+name);
-        System.out.println("Ypur second name: "+secname);
-        System.out.println("Your surname: "+surname);
-        System.out.println("your age: "+age);
-        System.out.println("Youe ID: "+id);
+        System.out.printf("Your name: %s Your second name: %s Your surname: %s your age: %d Your ID: %d ",name, secname, surname, age, id);
         in.close();
     }
 }
